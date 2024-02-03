@@ -489,7 +489,7 @@ section.contact .contact-me .right button{
         margin-right:0; /*외부 여백 초기화*/
     }
     .bg {
-        width: auto;
+        width: 768px;
     }
     
 }
@@ -506,7 +506,7 @@ section.contact .contact-me .right button{
     }
     
     .bg {
-        width: auto;
+        width: 576px;
 
     }
 }
@@ -528,7 +528,7 @@ section.contact .contact-me .right button{
         font-size:3rem; /*3.5rem -> 3rem*/
     }
     .bg {
-        width: auto;
+        width: 480px;
     }
 
 }
