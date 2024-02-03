@@ -229,13 +229,41 @@ section .about-self .right .social a{
     width: inherit;
     height: 650px;
 } */
-.bg{
-    background: url(./picture/bg.jpeg) center center;
-    width: 100vh;
-    height: 100vh;
-    background-size: cover;
-    background-attachment: fixed; 
+
+.bg-fixed{
+    position: relative;
+    width: 100%;
+    height: 650px;
 }
+
+.bg-wrap {
+    clip: rect(0, auto, auto, 0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+.bg{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-image: url(./picture/bg.jpeg);
+}
+
+/* .bg{
+    background: url(./picture/bg.jpeg) center center;
+
+    height: 650px;    
+    background-size: cover;
+    background-attachment: fixed;
+
+} */
 
 /* what_i_do */
 
