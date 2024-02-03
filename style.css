@@ -503,6 +503,9 @@ section.contact .contact-me .right button{
     section .container{
         width:360px; /* 400px -> 360px*/
     }
+    .bg{
+        width: 3600px;
+    }
     
 }
 
@@ -521,6 +524,9 @@ section.contact .contact-me .right button{
     }
     section .title h2{
         font-size:3rem; /*3.5rem -> 3rem*/
+    }
+    .bg{
+        width: 320px;
     }
     
 }
