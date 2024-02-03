@@ -522,9 +522,5 @@ section.contact .contact-me .right button{
     section .title h2{
         font-size:3rem; /*3.5rem -> 3rem*/
     }
-    .bg{
-    background-size: auto;
-    background-attachment: local;
-    }
 
 }
