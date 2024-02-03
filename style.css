@@ -69,6 +69,8 @@ header.active{
 
 /* main */
 
+
+
 main{
     width: 100%;
     height:100vh;
@@ -225,9 +227,11 @@ section .about-self .right .social a{
 /* background */
 .bg{
     background: url(./picture/bg.jpeg) center center;
+    width: 100%;
+    height: 650px;
     background-size: cover;
     background-attachment: fixed;
-    height: 650px;
+    
 }
 
 /* what_i_do */
@@ -323,116 +327,6 @@ section.about .portfolio-inner h3{
     font-size:1.75rem;
 }
 
-
-@media screen and (max-width:1140px){
-    main .container{
-        width:992px; /* 1140px -> 992px*/
-    }
-    section .container{
-        width:600px; /*1140px -> 600px*/
-    }
-    
-    section .about-self .left{
-        width: 100%;
-        margin-bottom: 1.5rem;
-    }
-    
-    section .about-self .right{
-        width: 100%;
-        padding:0;
-    }
-    section .do-me .do-inner{
-        width: 48%; 
-        margin-bottom:1.5rem;
-        margin-right: 0;
-    }
-    section .do-me .do-inner:nth-child(2n+1){
-        margin-right:4%;
-        
-    }
-    section .portfolio-me .portfolio-inner{
-        width:48%; 
-        margin-right: 0;
-    }
-    section .portfolio-me .portfolio-inner:nth-child(2n+1){
-        margin-right:4%;
-        
-    }
-
-    section.contact .contact-me .left{
-        width: 100%; 
-    }
-    section.contact .contact-me .right{
-        width:100%; 
-        margin-left:0; 
-        
-    }
-}
-
-@media screen and (max-width:992px){
-    html{
-        font-size:14px;
-    }
-
-    main .container{
-        width:768; /* 992px -> 768px*/
-    }
-    section .portfolio-me .portfolio-inner{
-        width:100%; /*본문 사각형 너비 48%->100% 변경*/
-    }
-    
-}
-
-@media screen and (max-width:768px){
-    html{
-        font-size:13px;
-    }
-    main .container{
-        width: 576px; /* 768px -> 576px */
-    }
-    section .container{
-        width:400px; /*600px -> 400px*/
-    }
-    section .do-me .do-inner{
-        width:100%; /* 48%-> 100%*/
-        margin-right:0; /*외부 여백 초기화*/
-    }
-    
-}
-
-@media screen and (max-width:576px){
-    html{
-        font-size:12px;   
-    }
-    main .container{
-        width:400px; /*576px -> 400px*/
-    }
-    section .container{
-        width:360px; /* 400px -> 360px*/
-    }
-    
-}
-
-@media screen and (max-width:400px){
-    html{
-        font-size:11px;
-    }
-    main .container{
-                width:320px; /* 400px -> 320px*/
-    }
-    section .container{
-            width:320px; /* 360px -> 320px*/
-    }
-    main h4{
-        font-size:1.5rem;
-    }
-    section .title h2{
-        font-size:3rem; /*3.5rem -> 3rem*/
-    }
-    
-}
-
-
 section.contact .contact-me::after{
     content:"";
     display:block;
@@ -520,3 +414,113 @@ section.contact .contact-me .right button{
     color: white;
 }
 
+
+
+@media screen and (max-width:1140px){
+    main .container{
+        width:992px;  
+    }
+    section .container{
+        width:600px;
+    }
+    
+    section .about-self .left{
+        width: 100%;
+        margin-bottom: 1.5rem;
+    }
+    
+    section .about-self .right{
+        width: 100%;
+        padding:0;
+    }
+    section .do-me .do-inner{
+        width: 48%; 
+        margin-bottom:1.5rem;
+        margin-right: 0;
+    }
+    section .do-me .do-inner:nth-child(2n+1){
+        margin-right:4%;
+        
+    }
+    section .portfolio-me .portfolio-inner{
+        width:48%; 
+        margin-right: 0;
+    }
+    section .portfolio-me .portfolio-inner:nth-child(2n+1){
+        margin-right:4%;
+        
+    }
+
+    section.contact .contact-me .left{
+        width: 100%; 
+    }
+    
+    section.contact .contact-me .right{
+        width:100%; 
+        margin-left:0; 
+        
+    }
+}
+
+@media screen and (max-width:992px){
+    html{
+        font-size:14px;
+    }
+
+    main .container{
+        width:768; /* 992px -> 768px*/
+    }
+    section .portfolio-me .portfolio-inner{
+        width:100%; /*본문 사각형 너비 48%->100% 변경*/
+    }
+    
+}
+
+@media screen and (max-width:768px){
+    html{
+        font-size:13px;
+    }
+    main .container{
+        width: 576px; /* 768px -> 576px */
+    }
+    section .container{
+        width:400px; /*600px -> 400px*/
+    }
+    section .do-me .do-inner{
+        width:100%; /* 48%-> 100%*/
+        margin-right:0; /*외부 여백 초기화*/
+    }
+    
+}
+
+@media screen and (max-width:576px){
+    html{
+        font-size:12px;   
+    }
+    main .container{
+        width:400px; /*576px -> 400px*/
+    }
+    section .container{
+        width:360px; /* 400px -> 360px*/
+    }
+    
+}
+
+@media screen and (max-width:400px){
+    html{
+        font-size:11px;
+    }
+    main .container{
+                width:320px; /* 400px -> 320px*/
+    }
+    section .container{
+            width:320px; /* 360px -> 320px*/
+    }
+    main h4{
+        font-size:1.5rem;
+    }
+    section .title h2{
+        font-size:3rem; /*3.5rem -> 3rem*/
+    }
+    
+}
