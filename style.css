@@ -225,27 +225,11 @@ section .about-self .right .social a{
 }
 
 /* background */
-.only{
-    width: 100%;
-    height:100vh;
-    position: relative;
-}
-.bg-warp{
-    clip:rect(0, auto, auto, 0);
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
 .bg{
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
     background: url(./picture/bg.jpeg) center center;
+    height: 650px;
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: fixed; 
 }
 
 /* what_i_do */
@@ -504,6 +488,9 @@ section.contact .contact-me .right button{
         width:100%; /* 48%-> 100%*/
         margin-right:0; /*외부 여백 초기화*/
     }
+    .bg {
+        width: auto;
+    }
     
 }
 
@@ -518,7 +505,10 @@ section.contact .contact-me .right button{
         width:360px; /* 400px -> 360px*/
     }
     
-    
+    .bg {
+        width: auto;
+
+    }
 }
 
 @media screen and (max-width:400px){
@@ -536,6 +526,9 @@ section.contact .contact-me .right button{
     }
     section .title h2{
         font-size:3rem; /*3.5rem -> 3rem*/
+    }
+    .bg {
+        width: auto;
     }
 
 }
