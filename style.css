@@ -226,12 +226,11 @@ section .about-self .right .social a{
 
 /* background */
 .bg{
-    background: url(./picture/bg.jpeg) center center;
     width: auto;
     height: 650px;
+    background: url(./picture/bg.jpeg) center center;
     background-size: cover;
     background-attachment: fixed;
-    
 }
 
 /* what_i_do */
@@ -522,6 +521,9 @@ section.contact .contact-me .right button{
     }
     section .title h2{
         font-size:3rem; /*3.5rem -> 3rem*/
+    }
+    .bg {
+        background-attachment: scroll;
     }
 
 }
