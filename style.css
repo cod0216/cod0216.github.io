@@ -472,6 +472,12 @@ section.contact .contact-me .right button{
         width:100%; /*본문 사각형 너비 48%->100% 변경*/
     }
     
+    .bg {
+        width: 100vw;
+        
+    }
+
+    
 }
 
 @media screen and (max-width:768px){
@@ -489,7 +495,7 @@ section.contact .contact-me .right button{
         margin-right:0; /*외부 여백 초기화*/
     }
     .bg {
-        width: 768px;
+        width: 100vw;
     }
     
 }
@@ -506,8 +512,7 @@ section.contact .contact-me .right button{
     }
     
     .bg {
-        width: 576px;
-
+        width: 100vw;
     }
 }
 
@@ -528,7 +533,7 @@ section.contact .contact-me .right button{
         font-size:3rem; /*3.5rem -> 3rem*/
     }
     .bg {
-        width: 480px;
+        width: 100vw;
     }
 
 }
