@@ -225,10 +225,14 @@ section .about-self .right .social a{
 }
 
 /* background */
+.bg-wrap{
+    width: inherit;
+    height: 650px;
+}
 .bg{
     background: url(./picture/bg.jpeg) center center;
-    margin:0;
-    height: 650px;
+    /* width: 100%; */
+    height: 100vh;
     background-size: cover;
     background-attachment: fixed; 
 }
