@@ -455,8 +455,10 @@ section.contact .contact-me .right button{
     
     section.contact .contact-me .right{
         width:100%; 
-        margin-left:0; 
-        
+        margin-left:0;    
+    }
+    .bg {
+        width: 100vw;
     }
 }
 
