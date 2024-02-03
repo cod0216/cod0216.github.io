@@ -227,7 +227,6 @@ section .about-self .right .social a{
 /* background */
 .bg{
     background: url(./picture/bg.jpeg) center center;
-    width: 100%;
     height: 650px;
     background-size: cover;
     background-attachment: fixed;
