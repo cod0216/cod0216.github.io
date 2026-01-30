@@ -1,5 +1,5 @@
 ---
-title: GitHub WebRTC란 - 연결 방식(Mesh, SFU, MCU)
+title: WebRTC란 - 연결 방식(Mesh, SFU, MCU)
 date: 2025-01-26 00:00:00 +0900
 categories: [Infra, WebRTC]
 tags: [Project, WebRTC, Infra]

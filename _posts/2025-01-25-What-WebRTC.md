@@ -1,5 +1,5 @@
 ---
-title: GitHub WebRTC란 - 이론편
+title: WebRTC란 - 이론편
 date: 2025-01-25 00:00:00 +0900
 categories: [Infra, WebRTC]
 tags: [Project, WebRTC, Infra]
