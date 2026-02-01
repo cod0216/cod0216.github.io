@@ -16,7 +16,11 @@ timezone: Asia/Seoul
 
 title: Eun.dev # the main title
 
-tagline: 시작의 해로 다시 돌아간대도 몇천 번이라도 같은 길을 걸어가리. # it will display as the subtitle
+tagline: |-
+  시작의 해로 다시 돌아간대도
+  몇천 번이라도 같은 길을 걸어가리.
+  
+# it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   비슷한 어려움을 겪는 누군가에게 도움이 되길
