@@ -1,7 +1,7 @@
 ---
 title: 문제어때 - 보안 하드닝과 외부 링크 처리에 대한 고민
 date: 2026-01-31 00:00:00 +0900
-categories: [engineering, HowAboutQuestion]
+categories: [Engineering, HowAboutQuestion]
 tags: [Project, HowAboutQuestion, Electron]
 toc: true
 comments: true
