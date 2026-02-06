@@ -2,7 +2,7 @@
 title: Java - Integer Pool
 date: 2024-03-02 00:00:00 +0900
 categories: [Programing, Java]
-tags: [Java, Modeling]
+tags: [Java]
 toc: true
 comments: true
 ---
