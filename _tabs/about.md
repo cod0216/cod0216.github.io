@@ -4,5 +4,19 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-> Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
-{: .prompt-tip }
+### 바다에게
+
+마음은 해변과 같아서  
+두 손 소중히 담은 모래알은  
+주고 싶지 않아도 새어 나오고  
+도로 담고 싶어도 담아지지 않고  
+놓아버려도 그저 흩어지길 기다릴 뿐이더라
+
+아이야, 내가 너를 생각함은  
+조용히 파도를 바라보는 일이었다
+
+고요히 보내준 조각들이  
+물결을 머금고, 다시 바다가 되어 가는 것을  
+어떻게 사라진다고 할 수 있을까  
+바람에 흐드러져, 이따금 반짝이길 바랄 뿐
+
