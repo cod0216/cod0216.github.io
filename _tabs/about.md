@@ -1,8 +1,8 @@
 ---
-# the default layout is 'page'
-title: 
+layout: page
 icon: fas fa-info-circle
 order: 4
+hide_title: true
 ---
 
 ### 바다에게
