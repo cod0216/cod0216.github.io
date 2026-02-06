@@ -1,8 +1,7 @@
 ---
-layout: page
+layout: default
 icon: fas fa-info-circle
 order: 4
-hide_title: true
 ---
 
 ### 바다에게
